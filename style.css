@@ -59,7 +59,7 @@ img {
 
 .description > h1 {
   font-family: var(--foutfit);
-  font-weight: 700px;
+  font-weight: 400px;
   font-size: 22px;
   line-height: 2rem;
 }
@@ -71,7 +71,7 @@ article {
 
 .attribution {
   font-family: var(--montserrat);
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 30px;
   font-size: 10px;
 }
