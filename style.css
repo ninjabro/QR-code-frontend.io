@@ -82,4 +82,5 @@ a {
 
 a:hover {
   color: var(--Darkblue);
+  transition: 0.3s ease-in-out;
 }
