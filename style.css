@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* color */
+  --white: hsl(0, 0%, 100%);
+  --Lightgray: hsl(212, 45%, 89%);
+  --Darkblue: hsl(218, 44%, 22%);
+
+  --foutfit: "Outfit", sans-serif;
+  --montserrat: "Montserrat", sans-serif;
+
+  /* font weight */
+  --f400: 400;
+  --f700: 700;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--Lightgray);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.Qr__code {
+  position: relative;
+  object-fit: cover;
+}
+.Qr__card {
+  width: 320px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 20px;
+}
+
+.description > p {
+  font-family: var(--foutfit);
+  opacity: 70%;
+  font-weight: var(--f400);
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.description > h1 {
+  font-family: var(--foutfit);
+  font-weight: 700px;
+  font-size: 22px;
+  line-height: 2rem;
+}
+
+article {
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.attribution {
+  font-family: var(--montserrat);
+  font-weight: 700;
+  margin-top: 30px;
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+  color: hsl(216, 95%, 58%);
+}
+
+a:hover {
+  color: var(--Darkblue);
+}
